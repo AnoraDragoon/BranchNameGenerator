@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+
+<body>
+    <div class="">
+        <label for="issue-number">Issue Number: </label>
+        <input id="issue-number" type="text" name="issue-number" value="">
+        <label for="issue-title">Issue Name: </label>
+        <input id="issue-title" type="text" name="issue-title" value="">
+        <button id="transform" type="button" onclick="showText()">Get branch name</button>
+    </div>
+    <br>
+    <div class="">
+        <label for="result">Result: </label>
+        <input id="result" readonly></input>
+        <button type="button" onclick="copyResult()">copy</button>
+    </div>
+    <br>
+    <div class="">
+        <label for="branch-command">Branch command: </label>
+        <input id="branch-command" readonly></input>
+        <button type="button" onclick="copyBranchCommand()">copy</button>
+    </div>
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
